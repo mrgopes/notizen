@@ -72,3 +72,71 @@ sonst ist es richtig
 
 - **Direkter Beweis:** A -> C -> D -> E ... -> B
 - **Widerspruchsbeweise:** A -> 'B, eventuell kommt man bei beweisen von dieser Aussage zu einem Widerspruch
+
+# Syntax der Aussagenlogik
+
+## Induktive Definition
+
+- A - Menge von Atomen / Grundelementen
+
+- A ⊆ L
+- wenn x,y ∈ L dann ist auch f(x,y) ∈ L
+- wenn x1, ... xn ∈ L, dann ist auch g(x1... xn) ∈ L
+
+## Aussagenlogische Formeln - Syntax
+
+...
+
+# Semantik der Aussagenlogik
+
+- definiert ueber Wahr oder Falsch
+- Aussagenlogik ist damit eine zweiwertige Logik
+
+- α^(F) = Wahrheitswert von F
+
+![[logische_operatoren.png]]
+
+## Funktionale Vollstaendigkeit
+
+Die Menge X ist funktional vollstaendig, falls es auch alle andere Operatoren nur mit Hilfe von Operatoren aus X ausdruecken laesst
+
+![[funktionelle_vollstaendigkeit.png]]
+
+## Definitionen! In Folien
+
+![[definitionen.png]]
+
+# Zuhause: Auswerten von (A und nonB) -> (1=0) -> (A->B)
+
+![[definitionen_zusammenfassung.png]]
+
+## Formalisieren in Aussagenlogik
+
+- Atomare Aussagen identifizieren
+- Phrasen wie nicht, und, oder, wenn .. dann, usw. erkennen
+
+B1:
+- A -> B
+- B -> non C
+- A
+- C
+- Sind sie konsistent? (A -> B) und (B -> non C) und A und C
+
+Die Formel hat kein Model -> die Aussagen sind widerspruechlich
+
+≡ semantische aequivalenz
+
+**Bei -> und <-> klammern benutzen!**
+
+# Kalkuel
+
+Syntax verwenden ohne Semantik und Schlussfolgerungen aus Formeln ziehen
+
+{{A,B}, {C}} - Klauselmenge, {A,B} ist ne Klausel
+
+leere Klausel {} = Wahrheitswert 0, auch {{}} = Wahrheitswert 0
+
+{{}, {A,B,C,}} auch Wahrheitswert 0
+
+Eine Klauselmenge ist falsch, wenn mindestens eine Konjunktion drinnen ist falsch
+
