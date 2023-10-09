@@ -14,7 +14,7 @@ Minimalstandard: Verbot von Folter, Streumunition...
 Muss Voelkerrecht entsprechen, darunter liegende Schicht
 **DSGVO** - Datenschutz Grundverordnung, teil Europarechtes
 
-Wenn was in EURecht steht, ist es in ganze EU gleich
+Wenn was in EURecht steht, ist es in der ganze EU gleich
 Ueberall innerhalb der EU steht Nationalrecht im Zweifel hinter dem Europarecht
 
 ### Wie kommt eine Verordnung zustande?
@@ -25,7 +25,7 @@ EU Rat > Regierungen (zustaendige Vorsitzenden)
 Nur die EU Kommission kann entsprechende Vorschlaege machen > jedes EU Mitgliedstaat hat einen Kommissar
     - im Vergleich zu OE Recht
     - In der EU Kommission sitzen Kommisaere, jedes Land stellt einen Kommissar
-    - Jedes Kommissar vertretet nicht den Staat, sondern unabhaengig von der Staatsbuergerschaft, die jeweilige Angelegenheit zu vertreten
+    - Jedes Kommissar vertretet nicht den Staat, sondern unabhaengig von der Staatsbuergerschaft, die jeweilige Angelegenheit
 
 Parlament & Rat muessen sich einigen
 
@@ -54,13 +54,13 @@ Fuer Richtlinien muss es auch Nationalrecht geben
 
 ## Oesterreichisches Recht
 
-[RIS](https://www.ris.bka.gv.at/) (bka = Bundeskanzleramt, obwolt das Bundesministerium fuer Finazen betreibt)
-Bundesrecht (spaeter auch Landesrechte) seid 2004 ausschliesslich elektronisch authentisch verbindlich kundgemacht
+[RIS](https://www.ris.bka.gv.at/) (bka = Bundeskanzleramt, obwol es das Bundesministerium fuer Finazen betreibt)
+Bundesrecht (spaeter auch Landesrechte) seit 2004 ausschliesslich elektronisch authentisch verbindlich kundgemacht
 
 #### Bundesrecht konsolidiert
 Bundesrecht angepasst an alle neue Aenderungen, die durch neue Bundesgesetzblaetter geaendert wurden
 
-**Jedes Gesetz hat ein paragraf 0:** Quellen fuer das konsolidierte Kunsttext, was wurde beruecksichtigt (Links vs Rechts vergleichen)
+**Jedes Gesetz hat ein Paragraf 0:** Quellen fuer das konsolidierte Kunsttext, was wurde beruecksichtigt (Links vs Rechts vergleichen)
 
 [Link](https://www.parlament.gv.at/gegenstand/XXVII/I/1178): Wie ein Bundesgesetzblatt entstanden ist (aus der VO)
 
