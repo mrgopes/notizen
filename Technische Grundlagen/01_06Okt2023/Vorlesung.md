@@ -103,3 +103,7 @@ desto naeher man zu 0 kommt, desto praeziser die Darstellung ist,
 
 Exponent ist mit Exzessdarstellung dargestellt = Exzess von 127
 
+# Rundungsfehleranalytse
+
+epsylon1 mal epsylon2 darf man so wie so weg lassen, denn es sehr klein ist
+Folie etwa 79

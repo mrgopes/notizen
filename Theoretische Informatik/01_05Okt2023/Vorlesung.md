@@ -27,9 +27,9 @@ Schlussfolgerung: Also hat John 4 Augen -- korrekt aus den gegebenen Aussagen
 Bei falschen Praemissen haben wir als SCchluss eine falsche Aussage bekommen, obwohl die Regel korrekt ist.
 
 ## Bestandteile eines logischen Systems:
-- **Syntax**: welche formalen Ausdruecke als Formeln des logischen Systems gelten
-- **Semantik**
-- **Kalkuel**
+- **Syntax**: welche formalen Ausdruecke als Formeln des logischen Systems gelten, von "Atomen" bis zu weiteren Regeln
+- **Semantik**: Bedeutung den syntaktischen Element, wie Formeln Wahrheitswerten zugeordnet werden koennen
+- **Kalkuel**: Regeln zum Ableitung neuer wahrer Formeln
 
 Wir werden sich mit Praedikatenlogik und Aussagenlogik beschaeftigen, obwohl es viele andere logische Systeme gibt.
 
@@ -71,7 +71,7 @@ sonst ist es richtig
 ### Beweis, dass A -> B gilt:
 
 - **Direkter Beweis:** A -> C -> D -> E ... -> B
-- **Widerspruchsbeweise:** A -> 'B, eventuell kommt man bei beweisen von dieser Aussage zu einem Widerspruch
+- **Widerspruchsbeweise:** A -> ¬B, eventuell kommt man bei beweisen von dieser Aussage zu einem Widerspruch
 
 # Syntax der Aussagenlogik
 
@@ -85,12 +85,14 @@ sonst ist es richtig
 
 ## Aussagenlogische Formeln - Syntax
 
-...
+![[syntax.png]]
 
 # Semantik der Aussagenlogik
 
 - definiert ueber Wahr oder Falsch
 - Aussagenlogik ist damit eine zweiwertige Logik
+
+**Der Wahrheitswert einer Formel wird in Abhaengigkeit von den Wahrheitswerten der atomaren Formeln berechnet**
 
 - α^(F) = Wahrheitswert von F
 
@@ -102,10 +104,10 @@ Die Menge X ist funktional vollstaendig, falls es auch alle andere Operatoren nu
 
 ![[funktionelle_vollstaendigkeit.png]]
 
-## Definitionen! In Folien
+### Modelle - Semantik
 
-![[definitionen.png]]
-
+Semantik einer Formel = Wahrheitswert
+![[modelle_semantik.png]]
 # Zuhause: Auswerten von (A und nonB) -> (1=0) -> (A->B)
 
 ![[definitionen_zusammenfassung.png]]
@@ -140,3 +142,17 @@ leere Klausel {} = Wahrheitswert 0, auch {{}} = Wahrheitswert 0
 
 Eine Klauselmenge ist falsch, wenn mindestens eine Konjunktion drinnen ist falsch
 
+Folie 85: die Klausel {B,C} koennen wir einfach dazu schreiben, denn wenn B oder C wahr ist, dann muss auch die ganze Formel wahr sein => es aendert die Erfuellbarkeit der Formel ned
+
+### Resolventen finden:
+
+Res 0 (K ) = {{¬P, H, C }, {¬P, ¬H}, {P}, {¬C }}
+
+**Alle moegliche Paare vergleichen:**
+- Erstes und zweites: H und nonH weg, bleibt {nonP, C (und theoretisch noch nonP, aber das bringt nichts)}
+- Erstes und drittes Paar: P und nonP weg, bleibt {H, C}
+- Erstes und viertes Paar: C und nonC weg, bleibt {nonP, H}
+
+Wiederhole bis du die leere Klausel erreichst: dann ist die Formel unerfuellbar.
+
+Folie 104 Zuhausestudium
